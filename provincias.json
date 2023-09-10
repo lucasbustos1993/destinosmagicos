@@ -1,0 +1,98 @@
+[
+    {
+        "nombre": "mardelplata",
+        "imagen": "IMG/mardelplata.jpg"
+    },
+    {
+        "nombre": "buenosaires",
+        "imagen": "IMG/buenosaires.jpg"
+    },
+    {
+        "nombre": "catamarca",
+        "imagen": "IMG/catamarca.jpg"
+    },
+    {
+        "nombre": "chaco",
+        "imagen": "IMG/chaco.jpg"
+    },
+    {
+        "nombre": "chubut",
+        "imagen": "IMG/chubut.jpg"
+    },
+    {
+        "nombre": "cordoba",
+        "imagen": "IMG/cordoba.jpg"
+    },
+    {
+        "nombre": "corrientes",
+        "imagen": "IMG/corrientes.jpg"
+    },
+    {
+        "nombre": "entrerios",
+        "imagen": "IMG/entrerios.jpg"
+    },
+    {
+        "nombre": "formosa",
+        "imagen": "IMG/formosa.jpg"
+    },
+    {
+        "nombre": "jujuy",
+        "imagen": "IMG/jujuy.jpg"
+    },
+    {
+        "nombre": "lapampa",
+        "imagen": "IMG/lapampa.jpg"
+    },
+    {
+        "nombre": "larioja",
+        "imagen": "IMG/larioja.jpg"
+    },
+    {
+        "nombre": "mendoza",
+        "imagen": "IMG/mendoza.jpg"
+    },
+    {
+        "nombre": "misiones",
+        "imagen": "IMG/misiones.jpg"
+    },
+    {
+        "nombre": "neuquen",
+        "imagen": "IMG/neuquen.jpg"
+    },
+    {
+        "nombre": "rionegro",
+        "imagen": "IMG/rionegro.jpg"
+    },
+    {
+        "nombre": "salta",
+        "imagen": "IMG/salta.jpg"
+    },
+    {
+        "nombre": "sanjuan",
+        "imagen": "IMG/sanjuan.jpg"
+    },
+    {
+        "nombre": "sanluis",
+        "imagen": "IMG/sanluis.jpg"
+    },
+    {
+        "nombre": "santacruz",
+        "imagen": "IMG/santacruz.jpg"
+    },
+    {
+        "nombre": "santafe",
+        "imagen": "IMG/santafe.jpg"
+    },
+    {
+        "nombre": "santiago",
+        "imagen": "IMG/santiago.jpg"
+    },
+    {
+        "nombre": "Ttierradelfuego",
+        "imagen": "IMG/tierradelfuego.jpg"
+    },
+    {
+        "nombre": "tucuman",
+        "imagen": "IMG/tucuman.jpg"
+    }
+]

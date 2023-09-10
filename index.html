@@ -4,70 +4,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-ico" href="/icono.ico">
-    <title>Destinos mágicos</title>
-    
+    <title>Destinos mágicos</title>    
 </head>
 <body>
     <header class="container">
         <section class="navbar">
-            <div class="logo">LOGO</div>
-            <div class="tel-ubic">Telefono y ubicacion</div>
-            <div class="rrss">Iconos RRSS</div>
+            <div class="logo">
+                <img src="IMG/logo.png">
+            </div>
+            <div class="tel-ubic">
+                <div class="ubi">
+                    <p>Buenos Aires</p>
+                    <p>(011)1111 2222</p>
+                </div>
+                <div class="ubi">
+                    <p>Cordoba</p>
+                    <p>0810-111-1111</p>
+                </div>
+            </div>
+            <div class="rrss">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-square-youtube"></i>
+            </div>
         </section>
-
     </header>
 
     <nav>
         <section class="container">
             <div class="barrabusqueda">
-                <div>Barra de busqueda</div>
-                <div>Barra de busqueda</div>
-                <div>Barra de busqueda</div>
+                <div>
+                    <label for="origen">Origen:</label>
+                    <select id="origen" name="origen">
+                        <option value="seleccion">Seleccione origen</option>
+                        <option value="buenosaires">Buenos Aires</option>
+                        <option value="rosario">Rosario</option>
+                        <option value="cordoba">Cordoba</option>
+                        <option value="tucuman">Tucumán</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="destino">destino:</label>
+                    <select id="destino" name="destino">
+                        <option value="selecciondestino">Seleccione destino</option>
+                        <option value="caba">Ciudad Autónoma de Buenos Aires</option>
+                        <option value="buenosaires">Buenos Aires (Mar del Plata)</option>
+                        <option value="catamarca">Catamarca</option>
+                        <option value="chaco">Chaco</option>
+                        <option value="chubut">Chubut</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="corrientes">Corrientes</option>
+                        <option value="entreRios">Entre Ríos</option>
+                        <option value="formosa">Formosa</option>
+                        <option value="jujuy">Jujuy</option>
+                        <option value="laPampa">La Pampa</option>
+                        <option value="laRioja">La Rioja</option>
+                        <option value="mendoza">Mendoza</option>
+                        <option value="misiones">Misiones</option>
+                        <option value="neuquen">Neuquén</option>
+                        <option value="rioNegro">Río Negro</option>
+                        <option value="salta">Salta</option>
+                        <option value="sanJuan">San Juan</option>
+                        <option value="sanLuis">San Luis</option>
+                        <option value="santaCruz">Santa Cruz</option>
+                        <option value="santaFe">Santa Fe</option>
+                        <option value="santiagoDelEstero">Santiago del Estero</option>
+                        <option value="tierraDelFuego">Tierra del Fuego</option>
+                        <option value="tucuman">Tucumán</option>
+                    </select>
+                    
+                </div>
             </div>
             <div class="filtrosRapidos">
-                <div>Filtros rapidos</div>
-                <div>Filtros rapidos</div>
-                <div>Filtros rapidos</div>
+                <button>Mas visitados</button>
+                <button>Destinos de verano</button>
+                <button>Destino de invierno</button>
             </div>
         </section>
     </nav>
 
     <article>
         <section class="container">
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>
-            <div class="card">CARD</div>            
+            <div class="card" id="mardelplata">
+                <img src="" alt="Mar del Plata">
+            </div>
+            <div class="card" id="buenosaires">
+                <img src="" alt="Buenos Aires">
+            </div>
+            <div class="card" id="catamarca">
+                <img src="" alt="Catamarca">
+            </div>
+            <div class="card" id="chaco">
+                <img src="" alt="Chaco">
+            </div>
+            <div class="card" id="chubut">
+                <img src="" alt="Chubut">
+            </div>
+            <div class="card" id="cordoba">
+                <img src="" alt="Córdoba">
+            </div>
+            <div class="card" id="corrientes">
+                <img src="" alt="Corrientes">
+            </div>
+            <div class="card" id="entrerios">
+                <img src="" alt="Entre Ríos">
+            </div>
+            <div class="card" id="formosa">
+                <img src="" alt="Formosa">
+            </div>
+            <div class="card" id="jujuy">
+                <img src="" alt="Jujuy">
+            </div>
+            <div class="card" id="lapampa">
+                <img src="" alt="La Pampa">
+            </div>
+            <div class="card" id="larioja">
+                <img src="" alt="La Rioja">
+            </div>
+            <div class="card" id="mendoza">
+                <img src="" alt="Mendoza">
+            </div>
+            <div class="card" id="misiones">
+                <img src="" alt="Misiones">
+            </div>
+            <div class="card" id="neuquen">
+                <img src="" alt="Neuquén">
+            </div>
+            <div class="card" id="rionegro">
+                <img src="" alt="Río Negro">
+            </div>
+            <div class="card" id="salta">
+                <img src="" alt="Salta">
+            </div>
+            <div class="card" id="sanjuan">
+                <img src="" alt="San Juan">
+            </div>
+            <div class="card" id="sanluis">
+                <img src="" alt="San Luis">
+            </div>
+            <div class="card" id="santacruz">
+                <img src="" alt="Santa Cruz">
+            </div>
+            <div class="card" id="santafe">
+                <img src="" alt="Santa Fe">
+            </div>
+            <div class="card" id="santiago">
+                <img src="" alt="Santiago del Estero">
+            </div>
+            <div class="card" id="tierradelfuego">
+                <img src="" alt="Tierra del Fuego">
+            </div>
+            <div class="card" id="tucuman">
+                <img src="" alt="Tucumán">
+            </div>
         </section>
+        
+        
     </article>
 
     <article class="info">
@@ -78,11 +175,9 @@
         <div class="menu">
             
         </div>
-        <p> hola</p>
     </article>
 
-
-    
-<script type="text/javascript" src="scripts.js"></script>   
+<script type="text/javascript" src="script.js"></script>  
+<script src="provincias.json"></script>
 </body>
 </html>
