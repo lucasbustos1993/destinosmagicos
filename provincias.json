@@ -1,11 +1,17 @@
 [
     {
         "nombre": "mardelplata",
-        "imagen": "IMG/mardelplata.jpg"
+        "imagen": "IMG/mardelplata.jpg",
+        "destino": "Mar del Plata",
+        "origen": "Buenos Aires",
+        "precio": 30000
     },
     {
         "nombre": "buenosaires",
-        "imagen": "IMG/buenosaires.jpg"
+        "imagen": "IMG/buenosaires.jpg",
+        "destino": "Buenos Aires",
+        "origen": "Cordoba",
+        "precio": 33999
     },
     {
         "nombre": "catamarca",
@@ -88,7 +94,7 @@
         "imagen": "IMG/santiago.jpg"
     },
     {
-        "nombre": "Ttierradelfuego",
+        "nombre": "tierradelfuego",
         "imagen": "IMG/tierradelfuego.jpg"
     },
     {

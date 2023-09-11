@@ -19,10 +19,23 @@ document.addEventListener("DOMContentLoaded", function() {
                     const imagen = card.querySelector('img');
                     imagen.src = provincia.imagen;
                     imagen.alt = provincia.nombre;
+
+                    // Agregar el nombre del destino, el precio y el origen
+
+                    const precioElement = card.querySelector('.precio');
+                    precioElement.textContent = `$${provincia.precio}`;
+
+                    const destinoElement = card.querySelector('.destino');
+                    destinoElement.textContent = `Destino: ${provincia.destino}`;
+
+                    const origenElement = card.querySelector('.origen');
+                    origenElement.textContent = `Origen: ${provincia.origen}`;
                 }
             });
         });
 });
+
+
 
 
 
