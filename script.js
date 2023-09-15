@@ -20,8 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     imagen.src = provincia.imagen;
                     imagen.alt = provincia.nombre;
 
-                    // Agregar el nombre del destino, el precio y el origen
-
+                    // Agregar el nombre del destino y el precio
                     const precioElement = card.querySelector('.precio');
                     precioElement.textContent = `$${provincia.precio}`;
 
@@ -30,6 +29,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     const origenElement = card.querySelector('.origen');
                     origenElement.textContent = `Origen: ${provincia.origen}`;
+
+                    // Agregar detalles del paquete turístico
+                    const backContent = card.querySelector('.back');
+                    backContent.innerHTML = `
+                        <h2>Paquete Turístico a ${provincia.destino}</h2>
+                        <p>Duración: ${provincia.duracion}</p>
+                        <p>Incluye:</p>
+                        <ul>
+                            ${provincia.incluye.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                        <button class="contratar-button">Contratar Servicio</button>
+                    `;
                 }
             });
         });

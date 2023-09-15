@@ -4,101 +4,311 @@
         "imagen": "IMG/mardelplata.jpg",
         "destino": "Mar del Plata",
         "origen": "Buenos Aires",
-        "precio": 30000
+        "precio": 30000,
+        "duracion": "5 días y 4 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "buenosaires",
         "imagen": "IMG/buenosaires.jpg",
         "destino": "Buenos Aires",
         "origen": "Cordoba",
-        "precio": 33999
+        "precio": 33999,
+        "duracion": "6 días y 5 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "catamarca",
-        "imagen": "IMG/catamarca.jpg"
+        "imagen": "IMG/catamarca.jpg",
+        "destino": "Catamarca",
+        "origen": "Buenos Aires",
+        "precio": 28000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "chaco",
-        "imagen": "IMG/chaco.jpg"
+        "imagen": "IMG/chaco.jpg",
+        "destino": "Chaco",
+        "origen": "Buenos Aires",
+        "precio": 26000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "chubut",
-        "imagen": "IMG/chubut.jpg"
+        "imagen": "IMG/chubut.jpg",
+        "destino": "Chubut",
+        "origen": "Buenos Aires",
+        "precio": 29000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "cordoba",
-        "imagen": "IMG/cordoba.jpg"
+        "imagen": "IMG/cordoba.jpg",
+        "destino": "Córdoba",
+        "origen": "Buenos Aires",
+        "precio": 31000,
+        "duracion": "6 días y 5 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "corrientes",
-        "imagen": "IMG/corrientes.jpg"
+        "imagen": "IMG/corrientes.jpg",
+        "destino": "Corrientes",
+        "origen": "Buenos Aires",
+        "precio": 27000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "entrerios",
-        "imagen": "IMG/entrerios.jpg"
+        "imagen": "IMG/entrerios.jpg",
+        "destino": "Entre Ríos",
+        "origen": "Buenos Aires",
+        "precio": 28000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "formosa",
-        "imagen": "IMG/formosa.jpg"
+        "imagen": "IMG/formosa.jpg",
+        "destino": "Formosa",
+        "origen": "Buenos Aires",
+        "precio": 26000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "jujuy",
-        "imagen": "IMG/jujuy.jpg"
+        "imagen": "IMG/jujuy.jpg",
+        "destino": "Jujuy",
+        "origen": "Buenos Aires",
+        "precio": 25000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "lapampa",
-        "imagen": "IMG/lapampa.jpg"
+        "imagen": "IMG/lapampa.jpg",
+        "destino": "La Pampa",
+        "origen": "Buenos Aires",
+        "precio": 27000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "larioja",
-        "imagen": "IMG/larioja.jpg"
+        "imagen": "IMG/larioja.jpg",
+        "destino": "La Rioja",
+        "origen": "Buenos Aires",
+        "precio": 26000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "mendoza",
-        "imagen": "IMG/mendoza.jpg"
+        "imagen": "IMG/mendoza.jpg",
+        "destino": "Mendoza",
+        "origen": "Buenos Aires",
+        "precio": 31000,
+        "duracion": "6 días y 5 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "misiones",
-        "imagen": "IMG/misiones.jpg"
+        "imagen": "IMG/misiones.jpg",
+        "destino": "Misiones",
+        "origen": "Buenos Aires",
+        "precio": 27000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "neuquen",
-        "imagen": "IMG/neuquen.jpg"
+        "imagen": "IMG/neuquen.jpg",
+        "destino": "Neuquén",
+        "origen": "Buenos Aires",
+        "precio": 29000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "rionegro",
-        "imagen": "IMG/rionegro.jpg"
+        "imagen": "IMG/rionegro.jpg",
+        "destino": "Río Negro",
+        "origen": "Buenos Aires",
+        "precio": 29000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "salta",
-        "imagen": "IMG/salta.jpg"
+        "imagen": "IMG/salta.jpg",
+        "destino": "Salta",
+        "origen": "Buenos Aires",
+        "precio": 28000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "sanjuan",
-        "imagen": "IMG/sanjuan.jpg"
+        "imagen": "IMG/sanjuan.jpg",
+        "destino": "San Juan",
+        "origen": "Buenos Aires",
+        "precio": 28000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "sanluis",
-        "imagen": "IMG/sanluis.jpg"
+        "imagen": "IMG/sanluis.jpg",
+        "destino": "San Luis",
+        "origen": "Buenos Aires",
+        "precio": 27000,
+        "duracion": "4 días y 3 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "santacruz",
-        "imagen": "IMG/santacruz.jpg"
+        "imagen": "IMG/santacruz.jpg",
+        "destino": "Santa Cruz",
+        "origen": "Buenos Aires",
+        "precio": 30000,
+        "duracion": "5 días y 4 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "santafe",
-        "imagen": "IMG/santafe.jpg"
+        "imagen": "IMG/santafe.jpg",
+        "destino": "Santa Fe",
+        "origen": "Buenos Aires",
+        "precio": 26000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "santiago",
-        "imagen": "IMG/santiago.jpg"
+        "imagen": "IMG/santiago.jpg",
+        "destino": "Santiago del Estero",
+        "origen": "Buenos Aires",
+        "precio": 26000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "tierradelfuego",
-        "imagen": "IMG/tierradelfuego.jpg"
+        "imagen": "IMG/tierradelfuego.jpg",
+        "destino": "Tierra del Fuego",
+        "origen": "Buenos Aires",
+        "precio": 31000,
+        "duracion": "6 días y 5 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     },
     {
         "nombre": "tucuman",
-        "imagen": "IMG/tucuman.jpg"
+        "imagen": "IMG/tucuman.jpg",
+        "destino": "Tucumán",
+        "origen": "Buenos Aires",
+        "precio": 25000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
+        ]
     }
 ]
