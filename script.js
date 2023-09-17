@@ -6,6 +6,41 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('provincias.json')
         .then(response => response.json())
         .then(data => {
+            // Función de filtro
+            function filtrarTarjetas(destinosMostrar) {
+                cards.forEach(card => {
+                    const nombreProvincia = card.id;
+                    const mostrar = destinosMostrar.includes(nombreProvincia);
+                    card.style.display = mostrar ? 'block' : 'none';
+                });
+            }
+
+            // Asignar eventos a los botones de filtros rápidos
+            const inviernoButton = document.getElementById('inviernoButton');
+            const veranoButton = document.getElementById('veranoButton');
+            const visitadaButton = document.getElementById('visitadaButton');
+
+            inviernoButton.addEventListener('click', function() {
+                const destinosMostrar = data.filter(d => d.invierno).map(d => d.nombre);
+                filtrarTarjetas(destinosMostrar);
+            });
+
+            veranoButton.addEventListener('click', function() {
+                const destinosMostrar = data.filter(d => d.verano).map(d => d.nombre);
+                filtrarTarjetas(destinosMostrar);
+            });
+
+            visitadaButton.addEventListener('click', function(){
+                const destinosMostrar = data.filter(d => d.visitada).map(d => d.nombre);
+                filtrarTarjetas(destinosMostrar);
+            })
+
+            // Restablecer todas las tarjetas cuando se hace clic en "Mostrar Todos"
+            document.getElementById('mostrarTodos').addEventListener('click', function() {
+                cards.forEach(card => {
+                    card.style.display = 'block';
+                });
+            });
             // Iterar sobre las tarjetas
             cards.forEach(card => {
                 // Obtener el nombre de la provincia desde el id de la tarjeta
@@ -43,58 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     `;
                 }
             });
-        });
-});
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    // Obtener las tarjetas
-    const cards = document.querySelectorAll('.card');
-
-    // Leer el JSON de provincias
-    fetch('provincias.json')
-        .then(response => response.json())
-        .then(data => {
-            // Función de filtro
-            function filtrarTarjetas(destinosMostrar) {
-                cards.forEach(card => {
-                    const nombreProvincia = card.id;
-                    const mostrar = destinosMostrar.includes(nombreProvincia);
-                    card.style.display = mostrar ? 'block' : 'none';
-                });
-            }
-
-            // Asignar eventos a los botones de filtros rápidos
-            const inviernoButton = document.getElementById('inviernoButton');
-            const veranoButton = document.getElementById('veranoButton');
-            const visitadaButton = document.getElementById('visitadaButton');
-
-            inviernoButton.addEventListener('click', function() {
-                const destinosMostrar = data.filter(d => d.invierno).map(d => d.nombre);
-                filtrarTarjetas(destinosMostrar);
-            });
-
-            veranoButton.addEventListener('click', function() {
-                const destinosMostrar = data.filter(d => d.verano).map(d => d.nombre);
-                filtrarTarjetas(destinosMostrar);
-            });
-
-            visitadaButton.addEventListener('click', function(){
-                const destinosMostrar = data.filter(d => d.visitada).map(d => d.nombre);
-                filtrarTarjetas(destinosMostrar);
-            })
-
-            // Restablecer todas las tarjetas cuando se hace clic en "Mostrar Todos"
-            document.getElementById('mostrarTodos').addEventListener('click', function() {
-                cards.forEach(card => {
-                    card.style.display = 'block';
-                });
-            });
-
-            
         });
 });
 
