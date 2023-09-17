@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-ico" href="/icono.ico">
+        <title>Destinos mágicos</title>    
+    </head>
+<body>
+    <header class="container">
+        <section class="navbar">
+            <div class="logo">
+                <img src="IMG/logo.png">
+            </div>
+            <div class="tel-ubic">
+                <div class="ubi">
+                    <p>Buenos Aires</p>
+                    <p>(011)1111 2222</p>
+                </div>
+                <div class="ubi">
+                    <p>Cordoba</p>
+                    <p>0810-111-1111</p>
+                </div>
+            </div>
+            <div class="rrss">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-square-youtube"></i>
+            </div>
+        </section>
+    </header>   
+
+    <h1>Formulario de Reserva</h1>
+    <form class="reserva-formulario" action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        
+        <label for="paquete">Paquete:</label>
+        <select id="paquete" name="paquete">
+            <option value="paquete1">Paquete 1</option>
+            <option value="paquete2">Paquete 2</option>
+            <option value="paquete3">Paquete 3</option>
+        </select>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+    <footer>
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2759.8733910142664!2d-58.73059851590026!3d-34.65316052591514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1694826834112!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://wa.me" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                
+            </div>
+            <div> Copyright © Todos los derechos reservados DestinosMagicos.com </div>
+        </div>
+    </footer> 
+</body>
+</html>
+
+ 

@@ -11,8 +11,9 @@
 <body>
     <header class="container">
         <section class="navbar">
-            <div class="logo">
-                <img src="IMG/logo.png">
+            <div class="nombreylogo">
+                <img class="logo" src="IMG/logo.png">
+                <p class="nombrelogo">DESTINO MAGICOS</p>
             </div>
             <div class="tel-ubic">
                 <div class="ubi">
@@ -81,9 +82,11 @@
                 </div>
             </div>
             <div class="filtrosRapidos">
-                <button>Mas visitados</button>
-                <button>Destinos de verano</button>
-                <button>Destino de invierno</button>
+                <button class="filtro" id="visitadaButton">Mas visitados</button>
+                <button class="filtro" id="veranoButton">Destinos de verano</button>
+                <button class="filtro" id="inviernoButton">Destino de invierno</button>
+                <button id="mostrarTodos">Mostrar todos</button>
+
             </div>
         </section>
     </nav>
@@ -372,14 +375,24 @@
     </article>
 
     <article class="info">
-        <div class="mediosdepago">
-            <div>Medios de pago</div>
-            <div class="iconosdepago">ICONOS</div>
-        </div>
-        <div class="menu">
+        <a href="suscripcion.html">SUSCRIBETE</a>
+        <div class="mediosdepago"> </div>
+        <div class="menu"></div>
+    </article>
+
+<footer>
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2759.8733910142664!2d-58.73059851590026!3d-34.65316052591514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1694826834112!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me" target="_blank"><i class="fab fa-whatsapp"></i></a>
             
         </div>
-    </article>
+        <div> Copyright © Todos los derechos reservados DestinosMagicos.com </div>
+    </div>
+</footer> 
 
 
 <script type="text/javascript" src="script.js"></script>  

@@ -3,6 +3,7 @@
         "nombre": "mardelplata",
         "imagen": "IMG/mardelplata.jpg",
         "destino": "Mar del Plata",
+        "texto": "lorem Ipsum lorem ipsum dolor lorem ipsum lorem ipsum",
         "origen": "Buenos Aires",
         "precio": 30000,
         "duracion": "5 días y 4 noches",
@@ -10,7 +11,9 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "verano": true,
+        "visitada": true
     },
     {
         "nombre": "buenosaires",
@@ -23,7 +26,9 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "verano": true,
+        "visitada": true
     },
     {
         "nombre": "catamarca",
@@ -62,7 +67,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "invierno": true
     },
     {
         "nombre": "cordoba",
@@ -75,7 +81,9 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "verano": true,
+        "visitada": true
     },
     {
         "nombre": "corrientes",
@@ -88,7 +96,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "verano": true
     },
     {
         "nombre": "entrerios",
@@ -101,7 +110,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "verano": true
     },
     {
         "nombre": "formosa",
@@ -166,7 +176,9 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "invierno": true,
+        "visitada": true
     },
     {
         "nombre": "misiones",
@@ -179,7 +191,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "visitada": true
     },
     {
         "nombre": "neuquen",
@@ -192,7 +205,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "invierno": true
     },
     {
         "nombre": "rionegro",
@@ -205,7 +219,9 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "invierno": true,
+        "visitada": true
     },
     {
         "nombre": "salta",
@@ -296,7 +312,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "invierno": true
     },
     {
         "nombre": "tucuman",
