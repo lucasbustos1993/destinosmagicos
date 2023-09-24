@@ -1,35 +1,28 @@
-/*HEADER*/
+body {
+    font-size: 16px; /* Establecemos un tamaño de fuente base */
+}
 
+/*HEADER*/
 header {    
     width: auto;
     height: auto;
-    margin: 10px;
-    
+    margin: 10px;    
 }
 
 /*LOGO*/
 header section .nombreylogo {
-    
-    width: auto;
-    height: auto;
     text-align: center;
 }
 
 .logo {
-    width: 200px;
-    height: 100px;
-
+    width: 100%; /* Hacemos que el logo sea completamente responsivo */
+    max-width: 200px; /* Establecemos un ancho máximo */
 }
-
-
-
-
 
 header section div img {
     width: 100%;
     height: 100%;
 }
-
 
 /*UBICACION Y TELEFONO*/
 .tel-ubic{
@@ -37,8 +30,7 @@ header section div img {
     display: flex;
     align-items: center;
     width: 500px;
-    height: 80px;
-    
+    height: 80px;    
 }
 
 .ubi {
@@ -52,19 +44,22 @@ header section div img {
 .rrss {
     display: flex;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: center; /* Centramos las redes sociales */
+    margin-top: 10px; /* Añadimos un poco de espacio arriba */
+        
 }
 
-i {
-    font-size: 40px;
+.rrss a {
     margin: 10px;
-    border-radius: 50%;
+    border-radius: px;
     overflow: hidden;
     color: #181e35;
     background-color: #fff;
 }
 
-i:hover {
+
+
+a:hover {
     cursor: pointer;
     opacity: 80%;
 }
@@ -176,10 +171,48 @@ cursor: pointer ;
     
 }
 
+/*seccion info*/
+.pago {
+    display: flex;
+    background-color: #181e35;
+    height: 4cm;
+    border-radius: 25px;
+    align-items: center;
+}
+h2 {
+    width: 10%;
+    margin-left: 1%;
+    color: #fff;
+    text-align: left;
+}
+
+.mediopago{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+
+.mediopago img{
+    margin: auto;
+    height: 1cm;
+}
+
+
+#master, #ahora3, #ahora6, #ahora12{
+    height: 2cm;
+}
+
+
+
+
+
+
+
 
 /*FOOTER*/
 footer {
-    background-color: #181e35;
+    background-color: #fff;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -278,3 +311,5 @@ form {
 .filtrosRapidos button:hover {
     opacity: 90%;
 }
+
+

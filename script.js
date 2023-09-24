@@ -68,9 +68,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     // Agregar detalles del paquete turístico
                     const backContent = card.querySelector('.back');
                     backContent.innerHTML = `
-                        <h2>Paquete Turístico a ${provincia.destino}</h2>
+                        <h3>Paquete a ${provincia.destino}</h3>
                         <p>${provincia.texto}</p>
-                        <p>Duración: ${provincia.duracion}</p>
+                        <p>Estadia: ${provincia.duracion}</p>
                         
                             ${provincia.incluye.map(item => `<li>${item}</li>`).join('')}
                         

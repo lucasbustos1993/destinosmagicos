@@ -3,7 +3,7 @@
         "nombre": "mardelplata",
         "imagen": "IMG/mardelplata.jpg",
         "destino": "Mar del Plata",
-        "texto": "lorem Ipsum lorem ipsum dolor lorem ipsum lorem ipsum",
+        "texto": "Disfruta de las playas y actividades acuáticas en Mar del Plata, conocida como la Perla del Atlántico.",
         "origen": "Buenos Aires",
         "precio": 30000,
         "duracion": "5 días y 4 noches",
@@ -19,6 +19,7 @@
         "nombre": "buenosaires",
         "imagen": "IMG/buenosaires.jpg",
         "destino": "Buenos Aires",
+        "texto": "Visita la ciudad de Buenos Aires, recorriendo lugares como el Obelisco, el barrio de San Telmo y el Teatro Colón.",
         "origen": "Cordoba",
         "precio": 33999,
         "duracion": "6 días y 5 noches",
@@ -33,6 +34,7 @@
     {
         "nombre": "catamarca",
         "imagen": "IMG/catamarca.jpg",
+        "texto": "Explora el Parque Nacional El Rey y visita la ciudad de San Fernando del Valle de Catamarca.",
         "destino": "Catamarca",
         "origen": "Buenos Aires",
         "precio": 28000,
@@ -54,7 +56,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "texto": "Descubre los Esteros del Iberá y la cultura Qom.\n\nEstadía: 2-3 días.\nComidas: Prueba platos típicos como el locro.\nExcursiones: Descubre los Esteros del Iberá y la cultura Qom."
     },
     {
         "nombre": "chubut",
@@ -68,7 +71,8 @@
             "Cena incluida",
             "Transporte y alojamiento"
         ],
-        "invierno": true
+        "invierno": true,
+        "texto": "Observa ballenas en Puerto Madryn y explora la belleza natural de la Patagonia."
     },
     {
         "nombre": "cordoba",
@@ -83,7 +87,8 @@
             "Transporte y alojamiento"
         ],
         "verano": true,
-        "visitada": true
+        "visitada": true,
+        "texto": "Realiza actividades de senderismo en las Sierras de Córdoba y visita las localidades de Villa Carlos Paz y Villa General Belgrano."
     },
     {
         "nombre": "corrientes",
@@ -97,7 +102,8 @@
             "Cena incluida",
             "Transporte y alojamiento"
         ],
-        "verano": true
+        "verano": true,
+        "texto": "Navega por el río Paraná y visita la ciudad de Corrientes."
     },
     {
         "nombre": "entrerios",
@@ -111,7 +117,8 @@
             "Cena incluida",
             "Transporte y alojamiento"
         ],
-        "verano": true
+        "verano": true,
+        "texto": "Relájate en las termas de Entre Ríos y visita la ciudad de Paraná."
     },
     {
         "nombre": "formosa",
@@ -124,7 +131,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "texto": "Explora el Parque Nacional Río Pilcomayo y conoce la cultura wichi."
     },
     {
         "nombre": "jujuy",
@@ -137,7 +145,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "texto": "Visita la Quebrada de Humahuaca y conoce la ciudad de San Salvador de Jujuy."
     },
     {
         "nombre": "lapampa",
@@ -150,7 +159,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "texto": "Explora las vastas llanuras y reserva un safari fotográfico de vida silvestre."
     },
     {
         "nombre": "larioja",
@@ -163,7 +173,8 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "texto": "Visita el Parque Nacional Talampaya y explora la ciudad de La Rioja."
     },
     {
         "nombre": "mendoza",
@@ -178,7 +189,8 @@
             "Transporte y alojamiento"
         ],
         "invierno": true,
-        "visitada": true
+        "visitada": true,
+        "texto": "Haz una degustación de vinos en las bodegas de la región y realiza actividades de montaña en los Andes."
     },
     {
         "nombre": "misiones",
@@ -192,7 +204,8 @@
             "Cena incluida",
             "Transporte y alojamiento"
         ],
-        "visitada": true
+        "visitada": true,
+        "texto": "Descubre las Cataratas del Iguazú y explora las ruinas de San Ignacio."
     },
     {
         "nombre": "neuquen",
@@ -206,11 +219,13 @@
             "Cena incluida",
             "Transporte y alojamiento"
         ],
-        "invierno": true
+        "invierno": true,
+        "texto": "Recorre la Ruta de los 7 Lagos y realiza actividades al aire libre en la región de la Patagonia."
     },
     {
         "nombre": "rionegro",
         "imagen": "IMG/rionegro.jpg",
+        "texto": "Explora la ciudad de Bariloche y sus alrededores, como el Parque Nacional Nahuel Huapi.",
         "destino": "Río Negro",
         "origen": "Buenos Aires",
         "precio": 29000,
@@ -220,60 +235,64 @@
             "Cena incluida",
             "Transporte y alojamiento"
         ],
-        "invierno": true,
-        "visitada": true
+        "invierno": true
     },
     {
         "nombre": "salta",
         "imagen": "IMG/salta.jpg",
         "destino": "Salta",
         "origen": "Buenos Aires",
-        "precio": 28000,
-        "duracion": "4 días y 3 noches",
+        "precio": 25000,
+        "duracion": "3 días y 2 noches",
         "incluye": [
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "visitada": true,
+        "texto": "Recorre la ciudad de Salta y visita la Quebrada de Cafayate."
     },
     {
         "nombre": "sanjuan",
         "imagen": "IMG/sanjuan.jpg",
         "destino": "San Juan",
         "origen": "Buenos Aires",
-        "precio": 28000,
-        "duracion": "4 días y 3 noches",
+        "precio": 26000,
+        "duracion": "3 días y 2 noches",
         "incluye": [
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "texto": "Visita bodegas y conoce la belleza natural de la región."
     },
     {
         "nombre": "sanluis",
         "imagen": "IMG/sanluis.jpg",
         "destino": "San Luis",
         "origen": "Buenos Aires",
-        "precio": 27000,
-        "duracion": "4 días y 3 noches",
+        "precio": 25000,
+        "duracion": "3 días y 2 noches",
         "incluye": [
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "texto": "Realiza actividades de senderismo y visita el Parque Nacional Quebrada del Condorito."
     },
     {
         "nombre": "santacruz",
         "imagen": "IMG/santacruz.jpg",
         "destino": "Santa Cruz",
         "origen": "Buenos Aires",
-        "precio": 30000,
-        "duracion": "5 días y 4 noches",
+        "precio": 29000,
+        "duracion": "4 días y 3 noches",
         "incluye": [
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ]
+        ],
+        "texto": "Explora el Glaciar Perito Moreno y realiza actividades de montaña en la región."
     },
     {
         "nombre": "santafe",
@@ -286,15 +305,32 @@
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
+        ],
+        "verano": true,
+        "texto": "Visita la ciudad de Santa Fe y navega por el río Paraná."
+    },
+    {
+        "nombre": "sgi",
+        "imagen": "IMG/sgi.jpg",
+        "texto": "Visita la ciudad de San Ignacio y las ruinas de la Misión Jesuítica Guarani.",
+        "destino": "San Ignacio",
+        "origen": "Buenos Aires",
+        "precio": 27000,
+        "duracion": "3 días y 2 noches",
+        "incluye": [
+            "Desayuno incluido",
+            "Cena incluida",
+            "Transporte y alojamiento"
         ]
     },
     {
-        "nombre": "santiago",
-        "imagen": "IMG/santiago.jpg",
-        "destino": "Santiago del Estero",
+        "nombre": "sfvc",
+        "imagen": "IMG/sfvc.jpg",
+        "texto": "Recorre la ciudad de San Fernando del Valle de Catamarca y explora el Parque Nacional El Rey.",
+        "destino": "San Fernando del Valle de Catamarca",
         "origen": "Buenos Aires",
-        "precio": 26000,
-        "duracion": "3 días y 2 noches",
+        "precio": 28000,
+        "duracion": "4 días y 3 noches",
         "incluye": [
             "Desayuno incluido",
             "Cena incluida",
@@ -304,20 +340,21 @@
     {
         "nombre": "tierradelfuego",
         "imagen": "IMG/tierradelfuego.jpg",
+        "texto": "Explora la ciudad de Ushuaia, el Canal Beagle y el Parque Nacional Tierra del Fuego.",
         "destino": "Tierra del Fuego",
         "origen": "Buenos Aires",
-        "precio": 31000,
-        "duracion": "6 días y 5 noches",
+        "precio": 32000,
+        "duracion": "5 días y 4 noches",
         "incluye": [
             "Desayuno incluido",
             "Cena incluida",
             "Transporte y alojamiento"
-        ],
-        "invierno": true
+        ]
     },
     {
         "nombre": "tucuman",
         "imagen": "IMG/tucuman.jpg",
+        "texto": "Recorre la ciudad de San Miguel de Tucumán y visita la Casa Histórica de la Independencia.",
         "destino": "Tucumán",
         "origen": "Buenos Aires",
         "precio": 25000,
