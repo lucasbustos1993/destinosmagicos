@@ -239,6 +239,17 @@ form {
     background-color: #0056b3;
 }
 
+/*boton volver*/
+.boton-volver {
+    background-color: #181e35;
+    color: #fff;
+    padding: 10px 20px;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
 /*barra de busqeuda*/
 
 .barrabusqueda {
