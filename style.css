@@ -122,7 +122,7 @@ article section .card {
 }
 
 .card:hover {
-    transform: scale(1.30);
+    
     cursor: pointer;
     z-index: 2;
 
@@ -180,14 +180,14 @@ cursor: pointer ;
     align-items: center;
 }
 h2 {
-    width: 10%;
+    width: 15%;
     margin-left: 1%;
     color: #fff;
     text-align: left;
 }
 
 .mediopago{
-    width: 90%;
+    width: 85%;
     display: flex;
     align-items: center;
 }
@@ -210,10 +210,11 @@ h2 {
 
 
 
+
 /*FOOTER*/
 footer {
     background-color: #fff;
-    color: #fff;
+    
     padding: 20px 0;
     text-align: center;
 }
@@ -272,6 +273,17 @@ form {
     background-color: #0056b3;
 }
 
+#botonregreso{   
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botonregreso:hover{
+    background-color: #0056b3;
+}
+
 /*barra de busqeuda*/
 
 .barrabusqueda {
@@ -308,8 +320,44 @@ form {
     font-size: 16px;
 }
 
+
+
 .filtrosRapidos button:hover {
     opacity: 90%;
 }
 
 
+
+.contenedor-info{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    flex: -1;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .informacion { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.contenedor-info{
+    flex-direction: column;    
+}
+    .pago{
+        display: none;
+    }
+
+}

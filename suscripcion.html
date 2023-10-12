@@ -43,8 +43,9 @@
         </section>
     </header>
 
-    <h1>Formulario de Reserva</h1>
+    <h1 style="display: block; margin: auto;">Formulario de Reserva</h1>
     <form class="reserva-formulario" action="procesar_formulario.php" method="POST">
+        Dejanos tus datos y nos ponemos en contacto con vos
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
         
@@ -54,15 +55,13 @@
         <label for="telefono">Teléfono:</label>
         <input type="tel" id="telefono" name="telefono" required>
         
-        <label for="paquete">Paquete:</label>
-        <select id="paquete" name="paquete">
-            <option value="paquete1">Paquete 1</option>
-            <option value="paquete2">Paquete 2</option>
-            <option value="paquete3">Paquete 3</option>
-        </select>
+        
+        
         
         <input type="submit" value="Enviar">
+        
     </form>
+    <button onclick="redireccionar()" style="display: block; margin: auto;">Ir a Inicio</button>
 
     <article class="pago">
         <h2 >Medios de pago</h2>

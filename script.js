@@ -81,6 +81,20 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 });
 
+function buscar(){
+    let origen = document.getElementById('origen').value;
+    let destino = document.getElementById('destino').value;
+
+
+    if (origen != 'seleccion' && destino != 'selecciondestino') {
+        window.location.href='suscripcion.html'
+    }
+    
+}
+
+function redireccionar() {
+    window.location.href = 'index.html';
+}
 
 
 
