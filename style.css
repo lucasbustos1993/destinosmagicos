@@ -108,7 +108,7 @@ article section .card {
     
     width: 260px;
     height: 9cm;
-    margin: 5px;
+    margin: 10px;
     transition: transform 0.3s ease;
     border-radius: 5%;
     background-color: #181e35;
@@ -347,7 +347,25 @@ form {
 
 
 @media screen and (max-width: 768px) {
-
+    body {
+        font-size: 14px; /* Cambia el tamaño de la fuente para pantallas pequeñas */
+    }
+    .tel-ubic {
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 80px;
+    }
+    .navbar {
+        flex-direction: column; /* Cambia la dirección de los elementos en la barra de navegación */
+    }
+    .filtrosRapidos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .informacion { 
         flex-direction: column;
         justify-content: center;
@@ -359,5 +377,7 @@ form {
     .pago{
         display: none;
     }
+    
 
 }
+
