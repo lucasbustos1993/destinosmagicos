@@ -1,4 +1,5 @@
 body {
+    
     font-size: 16px; /* Establecemos un tamaño de fuente base */
 }
 
@@ -349,7 +350,9 @@ form {
 @media screen and (max-width: 768px) {
     body {
         font-size: 14px; /* Cambia el tamaño de la fuente para pantallas pequeñas */
+        overflow-x: hidden;
     }
+
     .tel-ubic {
         margin-left: 80px;
         display: flex;
@@ -365,6 +368,12 @@ form {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 5%;
+    }
+
+    .filtrosRapidos button {
+        width: 70%;
+        margin: 2%;
     }
     .informacion { 
         flex-direction: column;
@@ -375,6 +384,9 @@ form {
     flex-direction: column;    
 }
     .pago{
+        display: none;
+    }
+    .mapas {
         display: none;
     }
     
