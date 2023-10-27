@@ -44,7 +44,7 @@
     </header>
 
     <h1 style="display: block; margin: auto;">Formulario de Reserva</h1>
-    <form class="reserva-formulario" action="https://formspree.io/f/xrgwjjdb" method="POST">
+    <form class="reserva-formulario" id="my-form" action="https://formspree.io/f/xrgwjjdb" method="POST">
         Dejanos tus datos y nos ponemos en contacto con vos
         <label for="nombre">Nombre:
         <input type="text" id="nombre" name="nombre" required>
@@ -58,6 +58,7 @@
         <input type="tel" id="telefono" name="telefono" required>
         </label>
         <input type="submit" value="Enviar">
+        <p id="my-form-status"></p>
         
     </form>
 
