@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const cards = document.querySelectorAll('.card');
 
     // Leer el JSON de provincias
-    fetch('provincias.json')
+    const url = 'https://mocki.io/v1/cabf8116-c704-42ad-84ff-8e53aaae70d8';
+    
+    fetch(url)
         .then(response => response.json())
         .then(data => {
             // Función de filtro
