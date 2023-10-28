@@ -127,8 +127,8 @@ async function handleSubmit(event) {
     if (response.ok) {
       status.innerHTML = "Gracias por contactarnos, te escribiremos pronto";
       form.reset();
-      setSubmittedFlag(); // Establece la bandera de envío
-      submitButton.disabled = true; // Deshabilita el botón
+      setSubmittedFlag(); 
+      submitButton.disabled = true; 
     } else {
       response.json().then(data => {
         if (Object.hasOwn(data, 'errors')) {
