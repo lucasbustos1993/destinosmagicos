@@ -89,6 +89,7 @@ nav section .barrabusqueda {
     justify-content: center;
     align-items: center;
     margin: 2px;
+    border-radius: 10px;
     
 }
 
